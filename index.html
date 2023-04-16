@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="personal webpage and Porfolio of Joshua Sonde"
+    />
+    <!-- Always include this line of code!!! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/favicon64.png" />
+    <link rel="apple-touch-icon" href="img/favicon180.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/btse-ps2" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/ocr-a-extended" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer src="js/script.js"></script>
+
+    <title>Joshua Sonde &mdash; Porfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <h1 class="logo blue-gradient-animation">JS</h1>
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list blue-gradient-animation">
+          <li><a class="main-nav-link" href="#">HOME</a></li>
+          <li><a class="main-nav-link" href="#aboutme">ABOUT ME</a></li>
+          <li>
+            <a class="main-nav-link" href="#education">EDUCATION</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="#projects">PROJECTS</a>
+          </li>
+          <li><a class="main-nav-link" href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <video class="background-video" autoplay loop muted>
+          <source src="vid/ps2options.webm" type="video/webm" />
+          <source src="vid/ps2options.mp4" type="video/mp4" />
+        </video>
+        <div class="hero">
+          <div class="hero-details">
+            <h1 class="heading-primary blue-gradient-animation">
+              
+              JOSHUA SONDE
+            </h1>
+            <p class="hero-description">
+              <a href="#projects" class="typewrite" data-period="2000" data-type='[ "SOFTWARE DEVELOPMENT", "WEB DEVELOPMENT", "NETWORK DEPLOYMENT" ]'>
+                <span class="wrap"></span>
+              </a>
+            </p>
+            <div class="hero-btns">
+              <a href="#aboutme" class="btn btn--full margin-right-sm"
+                >ABOUT ME&darr;</a
+              >
+              <a href="#projects" class="btn btn--outline">MY PROJECTS</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-aboutme" id="aboutme">
+        <div class="container">
+          <h2 class="heading-secondary">ABOUT ME</h2>
+        </div>
+        <div class="container">
+          <div class="aboutme-card">
+            <img
+              src="img/js1.JPG"
+              alt="me"
+            />
+            <div class="card-details">
+              <div class="waviy">
+                <span style="--i:1">W</span>
+                <span style="--i:2">H</span>
+                <span style="--i:3">O</span>
+                <span style="--i:4"></span>
+                <span style="--i:5">A</span>
+                <span style="--i:6">M</span>
+                <span style="--i:7"></span>
+                <span style="--i:8">I</span>
+              </div>
+              
+              <p>
+                Im a recent computer science graduate actively looking for software
+                development and engineering roles in the London metropolitan area or remote. Via my
+                extensive work history in customer service, I have shown
+                excellent communication and teamwork skills. Throughout my time
+                in education, I have overcome many challenges which in turn have
+                improved my skills in areas including but not limited to
+                time-management and adaptability.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-education" id="education">
+        <div class="container">
+          <h2 class="heading-secondary">EDUCATION</h2>
+          <span class="subheading">
+            Click the cards for more Information
+          </span>
+        </div>
+
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="education-card" id="GCSE">
+            <img
+              src="img\education-cards\gcse.jpg"
+              class="education-img"
+              alt="GCSE"
+            />
+            <div class="education-content">
+              <div class="education-tags">
+                <span class="tag tag--level">Secondary</span>
+              </div>
+              <p class="education-title">GCSEs</p>
+              <ul class="education-attributes">
+                <li class="education-attribute">
+                  <ion-icon
+                    class="education-icon"
+                    name="school-outline"
+                  ></ion-icon>
+                  <span><strong>11</strong> GCSES</span>
+                </li>
+                <li class="education-attribute">
+                  <ion-icon
+                    class="education-icon"
+                    name="star-outline"
+                  ></ion-icon>
+                  <span>With 2 As & 6 Bs</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="GCSEModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="wrapper">
+                <div class="container">
+                  <h2>Year 11</h2>
+                  <ol>
+                    <li>
+                      <span>English Language</span>
+                      <span>Grade B</span>
+                    </li>
+                    <li>
+                      <span>English Liturature</span>
+                      <span>Grade B</span>
+                    </li>
+                    <li>
+                      <span>Mathematics</span>
+                      <span>Grade B</span>
+                    </li>
+                    <li>
+                      <span>Further Mathematics</span>
+                      <span>Grade C</span>
+                    </li>
+                    <li>
+                      <span>Science</span>
+                      <span>Grade A</span>
+                    </li>
+                    <li>
+                      <span>Additional Science</span>
+                      <span>Grade A</span>
+                    </li>
+                    <li>
+                      <span>Psychology</span>
+                      <span>Grade B</span>
+                    </li>
+                    <li>
+                      <span>Business & Economics</span>
+                      <span>Grade B</span>
+                    </li>
+                    <li>
+                      <span>ICT</span>
+                      <span>Grade B</span>
+                    </li>
+                    <li>
+                      <span>Geography</span>
+                      <span>Grade C</span>
+                    </li>
+                    <li>
+                      <span>PE</span>
+                      <span>Grade C</span>
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="education-card" id="alevel">
+            <img
+              src="img\education-cards\alevels.jpg"
+              class="education-img"
+              alt="A Levels"
+            />
+            <div class="education-content">
+              <div class="education-tags">
+                <span class="tag tag--level">Tertiary</span>
+              </div>
+              <p class="education-title">A Levels</p>
+              <ul class="education-attributes">
+                <li class="education-attribute">
+                  <ion-icon
+                    class="education-icon"
+                    name="school-outline"
+                  ></ion-icon>
+                  <span>4 A Levels</span>
+                </li>
+                <li class="education-attribute">
+                  <ion-icon
+                    class="education-icon"
+                    name="star-outline"
+                  ></ion-icon>
+                  <span>Including IT(B)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="alevelModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="wrapper">
+                <div class="container">
+                  <h2>Year 13</h2>
+                  <ul>
+                    <li>
+                      <span>Information Technology</span>
+                      <span>Grade B</span>
+                    </li>
+                    <li>
+                      <span>Business</span>
+                      <span>Grade C</span>
+                    </li>
+                    <li>
+                      <span>Sociology</span>
+                      <span>Grade C</span>
+                    </li>
+                    <li>
+                      <span>Biology</span>
+                      <span>Grade D (AS)</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="education-card card-3" id="degree">
+            <img
+              src="img\education-cards\degree2.jpg"
+              class="education-img"
+              alt="cov University"
+            />
+            <div class="education-content">
+              <div class="education-tags">
+                <span class="tag tag--level">Tertiary</span>
+                <span class="tag tag--bsc">BsC</span>
+              </div>
+              <p class="education-title">Degree</p>
+              <ul class="education-attributes">
+                <li class="education-attribute">
+                  <ion-icon
+                    class="education-icon"
+                    name="school-outline"
+                  ></ion-icon>
+                  <span>Computer Science</span>
+                </li>
+                <li class="education-attribute">
+                  <ion-icon
+                    class="education-icon"
+                    name="star-outline"
+                  ></ion-icon>
+                  <span>First Class Honours</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- The Modal -->
+        <div id="degreeModal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="wrapper">
+              <div class="container">
+                <h2>First Year</h2>
+                <ul>
+                  <li>
+                    <span>Enterprise Information Systems</span>
+                  </li>
+                  <li>
+                    <span>Designing for Usability</span>
+                  </li>
+                  <li>
+                    <span>Computer Architecture and Networks</span>
+                  </li>
+                  <li>
+                    <span>Logic and Sets</span>
+                  </li>
+                  <li>
+                    <span>Social Media for Business</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="container">
+                <h2>Second Year</h2>
+
+                <ul>
+                  <li>
+                    <span>Operating Systems</span>
+                  </li>
+                  <li>
+                    <span>Security and Networks</span>
+                  </li>
+                  <li>
+                    <span>Programming, Algorithms and Data Structures</span>
+                  </li>
+                  <li>
+                    <span>Data and Information Retrieval</span>
+                  </li>
+                  <li>
+                    <span>Software Engineering</span>
+                  </li>
+                  <li>
+                    <span>Climate Change</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="container">
+                <h2>Third Year</h2>
+
+                <ul>
+                  <li>
+                    <span>Agile Development</span>
+                  </li>
+                  <li>
+                    <span>Security & Compliance in the Cloud</span>
+                  </li>
+                  <li>
+                    <span>Software Quality and Process Management</span>
+                  </li>
+                  <li>
+                    <span>Theoretical Aspects of Computer Science</span>
+                  </li>
+                  <li>
+                    <span>the International Business of Sport</span>
+                  </li>
+                  <li>
+                    <span>Individual Project</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-projects" id="projects">
+        <div class="container">
+          <h2 class="heading-secondary" style="text-align:center;">PROJECTS</h2>
+        </div>
+        <div class="container grid grid--2-cols grid--center-v">
+          <!-- PROJECT 01 -->
+          <div class="projectone project-text-box">
+            <p class="project-number">01</p>
+            <h3 class="heading-tertiary">RESPONSIVE WEBSITE</h3>
+            <p class="project-description">
+              I developed a responsive website for a food delivery enterprise utilizing CSS, HTML, and JavaScript. 
+              The website's adaptive design accommodates diverse screen resolutions, 
+              ensuring a seamless and visually-pleasing user experience across multiple devices.
+            </p>
+          </div>
+
+          <div class="project-img-box">
+            <img
+              src="onmifood_mashup.webp"
+              class="project-img"
+              alt="image showing omnifood website reponsiveness to different screens"
+            />
+          </div>
+
+          <!-- project 02 -->
+          <div class="project-img-box">
+            <video width="426" height="240" controls>
+              <source src="vid/CG_Wrecking_Ball.webm" type="video/webm">
+              <source src="vid/CG_Wrecking_ball.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="project-text-box">
+            <p class="project-number">02</p>
+            <h3 class="heading-tertiary">3D MODELLING</h3>
+            <p class="project-description">
+              Using the Blender 3D computer graphics software toolkit, 
+              I conceptualized and crafted a pillar structure and a wrecking ball. 
+              Furthermore, I incorporated physics simulation to enable the wrecking ball to interact convincingly with the pillar.
+            </p>
+          </div>
+
+          <!-- project 03 -->
+          <!-- <div class="project-text-box">
+            <p class="project-number">03</p>
+            <h3 class="heading-tertiary">Receive meals at convenient time</h3>
+            <p class="project-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Laudantium inventore magni quo, consectetur molestias iure explicabo in, ullam quaerat quisquam cumque. 
+              Unde atque cum maiores provident tenetur hic sequi nihil!
+            </p>
+          </div>
+          <div class="project-img-box">
+            <img
+              src="onmifood_mashup.webp"
+              class="project-img"
+              alt="iPhone app
+            delivery screen"
+            />
+          </div> -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="https://www.linkedin.com/in/joshua-sonde/" target="_blank"
+                ><ion-icon class="social-icon" name="logo-linkedin"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="mailto:joshua_sonde@icloud.com"
+                ><ion-icon class="social-icon" name="mail-outline"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2022</span> StarNine ENT.
+            All rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <nav class="nav-col">
+          <a class="footer-heading main-nav-link blue-gradient-animation" href="#">HOME</a>
+        </nav>
+          <address class="contacts">
+              <a class="footer-link" href="tel:415-201-6370">07472666590</a
+              ><br />
+              <a class="footer-link" href="mailto:joshua_sonde@icloud.com"
+                >joshua_sonde@icloud.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <a class="footer-heading main-nav-link blue-gradient-animation" href="#aboutme">ABOUT ME</a>
+        </nav>
+
+        <nav class="nav-col">
+          <a class="footer-heading main-nav-link blue-gradient-animation" href="#education">EDUCATION</a>
+        </nav>
+
+        <nav class="nav-col">
+          <a class="footer-heading main-nav-link blue-gradient-animation" href="#projects">PROJECTS</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
