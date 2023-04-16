@@ -1,9 +1,3 @@
-///////////////////////////////////////////////////////////
-// Fixing flexbox gap property missing in some Safari versions
-console.log("hello world");
-const yearEL = document.querySelector(".year");
-const currentYear = new Date().getFullYear();
-yearEL.textContent = currentYear;
 const btnNavEL = document.querySelector(".btn-mobile-nav");
 const headerEL = document.querySelector(".header");
 btnNavEL.addEventListener("click", function () {
