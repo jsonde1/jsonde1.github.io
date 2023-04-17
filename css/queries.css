@@ -182,7 +182,9 @@
     row-gap: 4.8rem;
     column-gap: 0rem;
   }
-
+  .wrapper {
+    flex-direction: column;
+  }
   .grid--2-cols,
   .grid--3-cols,
   .grid--4-cols {
