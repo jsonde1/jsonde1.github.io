@@ -7,6 +7,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #000;
+  border-bottom: 1px solid #080cec;
 
   /* Because we want header to be sticky later */
   height: 9.6rem;
@@ -100,14 +101,15 @@ a:link {
 /**************************/
 
 .section-hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 1));
+  /* background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 1)); */
+  background: rgba(0, 0, 0, 0.92);
   height: 100vh;
   font-family: "BTSE + PS2 FONT", sans-serif;
 }
 .background-video {
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   object-fit: cover;
@@ -156,10 +158,10 @@ a:link {
 /**************************/
 
 .section-aboutme {
+  background: rgba(0, 0, 0, 0.92);
   padding: 9.6rem 0 9.6rem 0;
   display: flex;
   flex-direction: column;
-  background-color: #000000;
 }
 
 .section-aboutme img {
@@ -172,7 +174,7 @@ a:link {
   display: flex;
   align-items: center;
   border-radius: 12px;
-  background-color: #000;
+  background-color: #000000;
   max-width: 90rem;
   box-shadow: 0 0 30px 20px #1c03ff;
 }
@@ -198,10 +200,10 @@ a:link {
 /**************************/
 
 .section-projects {
+  background: rgba(0, 0, 0, 0.92);
   padding: 9.6rem 0;
   display: flex;
   flex-direction: column;
-  background: #000;
   position: relative;
 }
 .section-projects-vid {
@@ -257,13 +259,14 @@ a:link {
 /**************************/
 
 .section-education {
+  background: rgba(0, 0, 0, 0.92);
   padding: 9.6rem 0;
   display: flex;
   flex-direction: column;
-  background: #000;
 }
 
 .education-card {
+  background-color: #000;
   box-shadow: 0 2.4rem 4.8rem rgba(4, 0, 255, 0.075);
   border-radius: 11px;
   overflow: hidden;
