@@ -427,6 +427,10 @@ a:link {
   height: 2.4rem;
   width: 2.4rem;
 }
+.logomain {
+  height: 12rem;
+  width: 12rem;
+}
 
 .copyright {
   font-size: 1.4rem;
